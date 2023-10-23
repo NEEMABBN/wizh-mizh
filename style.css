@@ -1,0 +1,52 @@
+.header{
+    text-align: center;
+    background-image: url("IMG_4653.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.header h1{
+    color:white;
+    height: 80px;
+    padding-top: 40px;
+}
+.navbar{
+    border: 4px inset darkslategrey;
+    border-radius: 8px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 0px 90px;
+    font-size: 23px;
+    cursor:pointer;
+    color: black;
+    transition:ease 200ms;
+}
+a:hover{
+    border-bottom-style: solid;
+    border-color:darkolivegreen;
+}
+.main{
+    background-image: url("IMG_4654.JPG");
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+.main p{
+    color: red;
+}
+.tain{
+    background-color:blueviolet;
+    border-radius: 8px;
+    height: 400px;
+}
+.tain p{
+    color: violet;
+    text-shadow: darkviolet;
+}
